@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Power</string>
+    <string name="title_activity_athlets">AthletsActivity</string>
+    <string name="title_activity_add_athlet">AddAthletActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_athletes_list">AthletesListActivity</string>
+</resources>
