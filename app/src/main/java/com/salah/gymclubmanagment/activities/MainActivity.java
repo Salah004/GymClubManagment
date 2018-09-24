@@ -12,6 +12,7 @@ import com.salah.gymclubmanagment.classes.Person;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -162,6 +163,9 @@ public class MainActivity extends Activity {
         RealmResults<Person> results = realm.where(Person.class).equalTo("cats.name", "Tiger").findAll();
 
         showStatus("Size of result set: " + results.size());
+    }
+
+    public void onBackToAthletesList(View view) {
     }
 
     // This AsyncTask shows how to use Realm in background thread operations.
